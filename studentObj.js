@@ -19,3 +19,9 @@ Student.prototype.getname = function() {
 s3.getname();
 
 console.log(s4);
+
+Student.prototype.printName = function () {
+				console.log("student Name: "+this.fname+" "+this.lname);
+
+}
+s3.printName();

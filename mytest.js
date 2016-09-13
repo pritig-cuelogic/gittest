@@ -24,4 +24,16 @@ console.log(e);
 
 // --------------------------------------------------------------------------------------------
 
+function printNum(a){
+console.log("test1"+a);
+}
 
+function Printnum(a){
+console.log("test222"+a);
+}
+
+printNum(5);
+
+var a = undefined;
+
+console.log(typeof a);

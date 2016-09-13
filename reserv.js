@@ -1,7 +1,4 @@
-var v = function() {
 
-    var a = 'case';
-    console.log(a);
-};
-
-v();
+a = { import: "test" };
+console.log(a.import);
+console.log(a["import"]);
